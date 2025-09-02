@@ -1,11 +1,11 @@
 import os
 from google import genai
 from flask import Flask, render_template, request, session
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import secrets
 
 
-load_dotenv()
+# load_dotenv()
 
 # Initialize the Flask app
 app = Flask(__name__)
